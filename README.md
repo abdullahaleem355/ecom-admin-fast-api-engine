@@ -14,7 +14,7 @@ SQLite (bundled with Python, no separate install needed)
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/ecom-admin-fastapi-engine.git
+git clone https://github.com/abdullahaleem355/ecom-admin-fastapi-engine.git
 cd ecom-admin-fastapi-engine
 ```
 
