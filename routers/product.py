@@ -9,7 +9,7 @@ from database import get_db
 router = APIRouter(prefix="/products", tags=["Products"])
 
 
-@router.get("/products/{product_id}", response_model=ProductOut)
+@router.get("/{product_id}", response_model=ProductOut)
 def get_product(product_id: int, db: Session = Depends(get_db)):
     product = db.query(Product).filter(Product.product_id == product_id).first()
     if not product:
