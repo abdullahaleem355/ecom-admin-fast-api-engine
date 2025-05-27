@@ -48,3 +48,6 @@ Once the app is running, open your browser and go to:
 http://127.0.0.1:8000/docs
 
 This opens the interactive Swagger UI where you can explore and test all API endpoints.
+
+## Note
+Reference Scripts for Amazon like dummy data as well as all API endpoints description is available in artifacts folder present in root directory.
